@@ -1,0 +1,4 @@
+typer
+numpy
+matplotlib
+scipy

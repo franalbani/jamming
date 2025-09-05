@@ -2,16 +2,12 @@
 
 En honor a Ricardo Jamming.
 
-## Preparation
+## Examples
 
-* `python3 -m venv venv`
-* `venv/bin/pip install -r reqs.txt`
+* `$ uv run jamming.py comparison --frame-size 100 --bit-error-prob 0.004 --sample-size 10000`
 
-## Usage
+![Comparación](downconverted_khinchin_comparison_2025.09.05.18.37.26.png)
 
-* `venv/bin/python3 jamming.py --help`
-* `venv/bin/python3 jamming.py --frame-size 100 --bit-error-prob 0.01 --sample-size 10000`
+* `$ uv run jamming.py probs --frame-size 100 --sample-size 10000`
 
-## Results
-
-![Results](jamming.png "Results")
+![Probs](fast_euclid_probs_2025.09.05.18.27.43.png)
